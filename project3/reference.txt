@@ -1,0 +1,6 @@
+http://www.ibm.com/developerworks/xml/library/x-hiperfparse/
+http://blog.csdn.net/gatieme/article/details/43235791
+http://stackoverflow.com/questions/28544686/unicodeencodeerror-ascii-codec-cant-encode-characters-in-position-0-5-ordin
+http://stackoverflow.com/questions/613183/sort-a-python-dictionary-by-value
+
+http://stackoverflow.com/questions/6523886/find-and-replace-values-in-xml-using-python

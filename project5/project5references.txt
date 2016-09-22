@@ -1,0 +1,11 @@
+https://github.com/yxes/ud120/blob/master/feature_engineering.py
+https://github.com/pcasaretto/machinelearning-finalproject/blob/master/Machine%20Learning%20Final%20Project.ipynb
+https://github.com/DariaAlekseeva/Enron_Dataset/blob/master/Enron%20POI%20Detector%20Project%20Assignment.ipynb
+http://orenov.github.io/mlproject.html
+https://github.com/baumanab/udacity_intro_machinelearning_project/tree/master/final_project
+http://scikit-learn.org/stable/auto_examples/feature_selection/feature_selection_pipeline.html#example-feature-selection-feature-selection-pipeline-py
+http://stackoverflow.com/questions/18434208/pandas-converting-to-numeric-creating-nans-when-necessary
+http://scikit-learn.org/stable/auto_examples/model_selection/grid_search_digits.html#example-model-selection-grid-search-digits-py
+http://scikit-learn.org/stable/auto_examples/feature_stacker.html#example-feature-stacker-py
+http://stackoverflow.com/questions/38987/how-can-i-merge-two-python-dictionaries-in-a-single-expression
+

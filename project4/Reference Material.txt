@@ -1,0 +1,7 @@
+https://s3.amazonaws.com/content.udacity-data.com/courses/ud651/diamondsExample_2016-05.html
+http://www.statmethods.net/stats/anovaAssumptions.html
+http://www.statmethods.net/stats/anova.html
+http://www.inside-r.org/packages/cran/gplots/docs/plotmeans
+https://cran.r-project.org/web/packages/corrplot/vignettes/corrplot-intro.html
+http://www.inside-r.org/packages/cran/corrplot/docs/corrplot
+https://briatte.github.io/ggcorr/
