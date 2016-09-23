@@ -1,0 +1,154 @@
+<html>
+
+<head>
+    <style media="screen">
+        table {
+            border-spacing: 5px;
+            width: 100%;
+            background-color: #f1f1c1;
+        }
+
+        .value {
+            background-color: #eee;
+        }
+
+        .label {
+            background-color: #fff;
+        }
+    </style>
+    <header>
+        my plot of baseball
+    </header>
+    <title>Visualization Version 0</title>
+</head>
+<div id="chartContainer">
+    <script src="//d3js.org/d3.v3.min.js"></script>
+    <script src="http://dimplejs.org/dist/dimple.v2.2.0.min.js"></script>
+    <script type="text/javascript">
+        var svg = dimple.newSvg("#chartContainer", 590, 400);
+        d3.csv("data.csv", function(data) {
+            var myChart = new dimple.chart(svg, data);
+            myChart.setBounds(60, 45, 510, 315)
+            myChart.addCategoryAxis("x", "Label");
+            myChart.addMeasureAxis("y", "count");
+            myChart.addSeries("avg", dimple.plot.bar);
+            myChart.addLegend(200, 10, 380, 20, "right");
+            myChart.draw();
+        });
+    </script>
+</div>
+<table>
+    <caption>label instruction</caption>
+    <tr class="value">
+        <td>
+            weight(pounds)
+        </td>
+
+        <td>
+            (139.895, 161]
+        </td>
+        <td>
+            (161, 182]
+        </td>
+        <td>
+            (182, 203]
+        </td>
+        <td>
+            (203, 224]
+        </td>
+        <td>
+            (224, 245]
+        </td>
+    </tr>
+    <tr class="label">
+        <td>
+            weight label
+        </td>
+        <td>
+            1
+        </td>
+        <td>
+            2
+        </td>
+        <td>
+            3
+        </td>
+        <td>
+            4
+        </td>
+        <td>
+            5
+        </td>
+    </tr>
+    <tr class="value">
+        <td>
+            height(inchs)
+        </td>
+        <td>
+            (64.985, 70]
+        </td>
+        <td>
+            (70, 75]
+        </td>
+        <td>
+            (75, 80]
+        </td>
+    </tr>
+    <tr class="label">
+        <td>
+            height label
+        </td>
+        <td>
+            S
+        </td>
+        <td>
+            M
+        </td>
+        <td>
+            H
+        </td>
+    </tr>
+    <tr class="value">
+        <td>
+            avg
+        </td>
+        <td>
+            (-0.000, 0.109]
+        </td>
+        <td>
+            (0.109, 0.219]
+        </td>
+        <td>
+            (0.219, 0.328]
+        </td>
+    </tr>
+    <tr class="label">
+        <td>
+            avg label
+        </td>
+        <td>
+            low
+        </td>
+        <td>
+            mid
+        </td>
+        <td>
+            high
+        </td>
+    </tr>
+</table>
+<p>
+		data set containing 1,157 baseball players including  height (in inches), weight (in pounds), batting average, and home runs</p>
+		<ul>
+			<li>value table and corresponding labels are in the table above</li>
+			<li>the X-axis represent the weight and height groups of baseball players</li>
+      <li>the y-axis represent the number of people have low , mid , high level of batting average in each group</li>
+			<li>You can move mouse over the rectangles to see deatiled information .</li>
+		</ul>
+		<p>Based on this visualization we can know:</p>
+		<ul>
+			<li>3M group(whose weight within (161, 182] and height within (70, 75]) have most high score  </li>
+			<li>the worst is 3H,it only has 5 high avg ,while has 28 low avg</li>
+		</ul>
+
+</html>

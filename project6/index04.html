@@ -1,0 +1,34 @@
+<html>
+<head>
+    <title>Visualization Version 3</title>
+</head>
+<body>
+  <h1>
+      Taller baseball players tend to have lower batting averages
+  </h1>
+  <b>labels notes:</b> <br>
+  <i>weight labels['light','midlight','medium','midheavy','heavy'] represent 5 even segments from 140~245 pounds </i><br>
+  <i>height labels ['Short','Medium','Tall'] represent 3 even segments from 65~80 inches </i><br>
+  <i>Batting Averages labels ['low','mid','high'] represent 3 even segments from 0.000~0.328 inches </i><br>
+	<div id="chart1"></div>
+	<div id="chart2"></div>
+  <script src="js/d3.v3.min.js"></script>
+  <script src="js/dimple.v2.1.6.min.js"></script>
+  <script src="js/draw04.js"> </script>
+</div>
+<p>
+		data set containing 1,157 baseball players including  height (in inches), weight (in pounds), batting average, and home runs</p>
+
+    <ul>
+			<li>value table and corresponding labels are in the table above</li>
+			<li>the X-axis represent the weight and height groups of baseball players</li>
+      <li>the y-axis represent the number(or percent) of people  have low , mid , high level of batting average in each group</li>
+			<li>You can move mouse over the rectangles to see deatiled information .</li>
+		</ul>
+		<p>Based on this visualization we can know:</p>
+		<ul>
+			<li>players with high height tend to have bad avg</li>
+			<li>most baseball players have weights between  160~200 pound and 70~75 inchs.</li>
+		</ul>
+  </body>
+</html>
